@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3/12</title>
+  </head>
+
+  <body>
+    <script>
+    var string = 'miro';
+    var number = 3;
+    var num = '3';
+    var success= true;
+    var success1= 'true';
+    var ccc = undefined;
+    var aaa = '';
+
+    //object
+    var obj1 = {
+      name/*name*/ : 'Yeon-jeong',
+      major/*key*/ : 'electronic',
+      studentID : '2015112533'
+      //name, major, student ID
+    };
+    //array
+    var arr1 = ['Yeon-jeong', 'electronic', {major: 'electronic'},[1]];
+    //function
+    var addOne = function(x){
+      return x+1;
+    }// 가장 간단한 함수 선언
+
+    </script>
+    <script>
+    //자바스크립트 연산자
+    var mod = 291 % 5; //mod = 1;
+    var string1 = '안녕하세요.'; //안녕하세요.
+    var string2 = '안녕'+'하세요.';//안녕하세요.
+    var enc = 1;
+    var result = 5;
+    var result1 = 5;
+    var i=9;
+    result += i;
+    result1 -= i;
+    //비교연산자 ==, !=
+    //===, !== : 값도 같고 자료형도 같을 경우 true나옴 , 되도록이면 === 쓰는 것이 좋음
+
+    var isItTrue = 4*6 == 5*5; //false
+    var isItFalse = 4*6 !=5*5; //true
+
+    //삼항연산자
+    var pos = (81 == 9*9) ? 'yes' :'no';
+    var pos = (81 != 9*9) ? 'yes' :'no';
+
+    //논리연산자
+    //var a = b&&c; //b가 거짓이면 뒤에 있는 c는 검사하지 않고 false
+    //var d = e f; //e가 참이면 뒤에 있는 f는 검사하지 않고 true
+    </script>
+
+    //조건문
+    <script>
+    var name = '유연정';
+    if(name == '유연정'){
+      alert(name);
+    }else{
+      alert('유연정이 아닙니다.');
+
+    }
+    </script>
+
+    //switch문
+    <script>
+    /*var function2(x){
+      switch(x) {
+        case 1:
+        alert('1입니다');
+        break;
+
+        case 2:
+        alert('1이 아닙니다');
+        break;
+        default;
+        alert('1과 2 모두 아닙니다.');
+      }
+    }*/
+    </script>
+//반복문
+<script>
+//for문
+var calculate = function(x){
+  var res =0;
+  for (var i=0; i<=x; i++){
+    res+=i;
+  }
+  return res;
+}
+
+//while문
+var p = 0;
+var o = 10;
+var cal  = function(x){
+  while (x < 10){
+    x++;
+    console.log(x);
+  }
+  return x;
+}
+//do while문
+var  p = 10;
+var call = function(x){
+  do{
+    if(x==p)
+    break;
+    x++;
+  }
+  while(x<10)
+  return x;
+}
+
+var object = {"name" : "yyj", "major" : "electronic"}
+</script>
+
+
+
+
+
+
+  </body>
+</html>
